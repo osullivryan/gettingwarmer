@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		837A278D2F94485B00F57734 /* Closer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Closer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		837A278D2F94485B00F57734 /* Warmer Circles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Warmer Circles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		837A278F2F94485B00F57734 /* Closer */ = {
+		837A278F2F94485B00F57734 /* Getting Warmer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Closer;
+			path = "Getting Warmer";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		837A27842F94485B00F57734 = {
 			isa = PBXGroup;
 			children = (
-				837A278F2F94485B00F57734 /* Closer */,
+				837A278F2F94485B00F57734 /* Getting Warmer */,
 				837A278E2F94485B00F57734 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		837A278E2F94485B00F57734 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				837A278D2F94485B00F57734 /* Closer.app */,
+				837A278D2F94485B00F57734 /* Warmer Circles.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		837A278C2F94485B00F57734 /* Closer */ = {
+		837A278C2F94485B00F57734 /* Warmer Circles */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 837A27982F94485C00F57734 /* Build configuration list for PBXNativeTarget "Closer" */;
+			buildConfigurationList = 837A27982F94485C00F57734 /* Build configuration list for PBXNativeTarget "Warmer Circles" */;
 			buildPhases = (
 				837A27892F94485B00F57734 /* Sources */,
 				837A278A2F94485B00F57734 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				837A278F2F94485B00F57734 /* Closer */,
+				837A278F2F94485B00F57734 /* Getting Warmer */,
 			);
-			name = Closer;
+			name = "Warmer Circles";
 			packageProductDependencies = (
 			);
 			productName = Closer;
-			productReference = 837A278D2F94485B00F57734 /* Closer.app */;
+			productReference = 837A278D2F94485B00F57734 /* Warmer Circles.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 837A27882F94485B00F57734 /* Build configuration list for PBXProject "Closer" */;
+			buildConfigurationList = 837A27882F94485B00F57734 /* Build configuration list for PBXProject "Warmer Circles" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				837A278C2F94485B00F57734 /* Closer */,
+				837A278C2F94485B00F57734 /* Warmer Circles */,
 			);
 		};
 /* End PBXProject section */
@@ -251,24 +251,34 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LBT3L3BYH6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Getting Warmer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Closer uses the camera to scan QR puzzle codes.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Closer uses your location to measure distance to the hidden target.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.osullivryan.Closer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osullivryan.WarmerCircles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -283,24 +293,34 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LBT3L3BYH6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Getting Warmer";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Closer uses the camera to scan QR puzzle codes.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Closer uses your location to measure distance to the hidden target.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.osullivryan.Closer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.osullivryan.WarmerCircles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -313,7 +333,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		837A27882F94485B00F57734 /* Build configuration list for PBXProject "Closer" */ = {
+		837A27882F94485B00F57734 /* Build configuration list for PBXProject "Warmer Circles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				837A27962F94485C00F57734 /* Debug */,
@@ -322,7 +342,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		837A27982F94485C00F57734 /* Build configuration list for PBXNativeTarget "Closer" */ = {
+		837A27982F94485C00F57734 /* Build configuration list for PBXNativeTarget "Warmer Circles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				837A27992F94485C00F57734 /* Debug */,
